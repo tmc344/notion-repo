@@ -4,7 +4,7 @@ const BLOG = {
   API_BASE_URL: process.env.API_BASE_URL || 'https://app.notion.com/api/v3', // API默认请求地址,可以配置成自己的地址例如：https://[xxxxx].notion.site/api/v3
   // Important page_id！！！官方全功能母版复制链接：https://www.notion.so/3dce78c0e8d481af9ac5eb92016756dd
   NOTION_PAGE_ID:
-    process.env.NOTION_PAGE_ID || '3dce78c0e8d4812598f8e90892c4c95e',
+    process.env.NOTION_PAGE_ID || '0ed0cc68f40c8266b71081fc3dad4162',
   REDIRECT_LANG: process.env.NEXT_PUBLIC_REDIRECT_LANG || false, // 是否根据浏览器语言自动重定向到 /en（默认关闭，保持停留在中文首页）
   THEME: process.env.NEXT_PUBLIC_THEME || 'heo', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 claude,endspace,example,fukasawa,fuwari,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
   LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
@@ -16,12 +16,12 @@ const BLOG = {
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '站长', // 您的昵称 例如 tangly1024
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '墨小晨', // 您的昵称 例如 tangly1024
   AVATAR: process.env.NEXT_PUBLIC_AVATAR || 'https://pic1.imgdb.cn/i/0IzCmnOthDxDueTFUMQ1Hm.png', // 站长默认头像与品牌 LOGO
-  BIO: process.env.NEXT_PUBLIC_BIO || '基于 Notion 的个人知识库与博客', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || '资源分享库', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://your-domain.com/', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客, 知识库', // 网站关键词 英文逗号隔开
-  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://pic1.imgdb.cn/i/0IzCmnOthDxDueTFUMQ1Hm.png', // blog favicon 配置
+  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://img-cdn.lusyoe.com/images/mcrj/2025/10/17/q1x1r0d39b.jpg', // blog favicon 配置
   HOME_BANNER_IMAGE:
     process.env.NEXT_PUBLIC_HOME_BANNER_IMAGE || '', // 默认站点与文章封面图，留空则使用主题默认预设背景或 Notion 页面封面
 
