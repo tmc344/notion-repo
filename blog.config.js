@@ -19,7 +19,7 @@ const BLOG = {
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '墨小晨', // 您的昵称 例如 tangly1024
   AVATAR: process.env.NEXT_PUBLIC_AVATAR || 'https://pic1.imgdb.cn/i/0IzCmnOthDxDueTFUMQ1Hm.png', // 站长默认头像与品牌 LOGO
   BIO: process.env.NEXT_PUBLIC_BIO || '资源分享库', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://your-domain.com/', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://889399.xyz/', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客, 知识库', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://img-cdn.lusyoe.com/images/mcrj/2025/10/17/q1x1r0d39b.jpg', // blog favicon 配置
   HOME_BANNER_IMAGE:
